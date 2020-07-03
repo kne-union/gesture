@@ -1,0 +1,40 @@
+{
+    "name": "lishaobo-gesture",
+    "version": "1.0.0",
+    "description": "gesture hit",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kne-union/gesture.git"
+    },
+    "keywords": [
+        "gesture",
+        "hit",
+        "touch",
+        "zoom"
+    ],
+    "author": "sb",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kne-union/gesture/issues"
+    },
+    "homepage": "https://github.com/kne-union/gesture#readme",
+    "dependencies": {
+        "react": "^16.13.1"
+    },
+    "devDependencies": {
+        "@babel/plugin-transform-runtime": "^7.7.6",
+        "@babel/preset-env": "^7.7.7",
+        "babel-preset-react-app": "^9.1.0",
+        "rollup": "^1.27.14",
+        "rollup-plugin-babel": "^4.3.3",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-peer-deps-external": "^2.2.0",
+        "rollup-plugin-terser": "^5.1.3"
+    }
+    
+}
